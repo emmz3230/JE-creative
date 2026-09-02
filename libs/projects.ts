@@ -49,6 +49,81 @@ export const projects: Project[] = [
       { label: "Mobile bounce", value: "−27%" },
     ],
   },
+  {
+    slug: "atlas-commerce",
+    name: "Atlas Commerce Rebrand",
+    tag: "Web Development",
+    year: "2024",
+    client: "Atlas Commerce Group",
+    summary:
+      "Full rebrand and headless commerce buildout for an enterprise retailer.",
+    overview: [
+      "Atlas needed more than a new logo — their storefront was slow,, and leaking conversions on mobile. We rebuilt their brand identity and translated it into a lightning-fast headless storefront.",
+      "The result is a design-led commerce experience with sub-second page loads, a fully modular CMS, and a conversion rate that doubled within the first quarter of launch.",
+ ],
+    services: ["Brand Identity", "Web Design", "Next.js Development", "Headless CMS", "Performance Optimization"],
+    stats: [
+      { label: "Conversion rate", value: "2.1×" },
+      { label: "Load time", value: "0.8s" },
+      { label: "Mobile bounce", value: "−27%" },
+    ],
+  },
+  {
+    slug: "atlas-commerce",
+    name: "Atlas Commerce Rebrand",
+    tag: "Web Development",
+    year: "2024",
+    client: "Atlas Commerce Group",
+    summary:
+      "Full rebrand and headless commerce buildout for an enterprise retailer.",
+    overview: [
+      "Atlas needed more than a new logo — their storefront was slow,, and leaking conversions on mobile. We rebuilt their brand identity and translated it into a lightning-fast headless storefront.",
+      "The result is a design-led commerce experience with sub-second page loads, a fully modular CMS, and a conversion rate that doubled within the first quarter of launch.",
+ ],
+    services: ["Brand Identity", "Web Design", "Next.js Development", "Headless CMS", "Performance Optimization"],
+    stats: [
+      { label: "Conversion rate", value: "2.1×" },
+      { label: "Load time", value: "0.8s" },
+      { label: "Mobile bounce", value: "−27%" },
+    ],
+  },
+  {
+    slug: "atlas-commerce",
+    name: "Atlas Commerce Rebrand",
+    tag: "Web Development",
+    year: "2024",
+    client: "Atlas Commerce Group",
+    summary:
+      "Full rebrand and headless commerce buildout for an enterprise retailer.",
+    overview: [
+      "Atlas needed more than a new logo — their storefront was slow,, and leaking conversions on mobile. We rebuilt their brand identity and translated it into a lightning-fast headless storefront.",
+      "The result is a design-led commerce experience with sub-second page loads, a fully modular CMS, and a conversion rate that doubled within the first quarter of launch.",
+ ],
+    services: ["Brand Identity", "Web Design", "Next.js Development", "Headless CMS", "Performance Optimization"],
+    stats: [
+      { label: "Conversion rate", value: "2.1×" },
+      { label: "Load time", value: "0.8s" },
+      { label: "Mobile bounce", value: "−27%" },
+    ],
+  },{
+    slug: "atlas-commerce",
+    name: "Atlas Commerce Rebrand",
+    tag: "Web Development",
+    year: "2024",
+    client: "Atlas Commerce Group",
+    summary:
+      "Full rebrand and headless commerce buildout for an enterprise retailer.",
+    overview: [
+      "Atlas needed more than a new logo — their storefront was slow,, and leaking conversions on mobile. We rebuilt their brand identity and translated it into a lightning-fast headless storefront.",
+      "The result is a design-led commerce experience with sub-second page loads, a fully modular CMS, and a conversion rate that doubled within the first quarter of launch.",
+ ],
+    services: ["Brand Identity", "Web Design", "Next.js Development", "Headless CMS", "Performance Optimization"],
+    stats: [
+      { label: "Conversion rate", value: "2.1×" },
+      { label: "Load time", value: "0.8s" },
+      { label: "Mobile bounce", value: "−27%" },
+    ],
+  },
 ];
 
 export function getProject(slug: string) {
