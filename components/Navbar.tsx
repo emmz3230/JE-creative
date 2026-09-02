@@ -1,6 +1,11 @@
 import Link from "next/link";
 
-const links = ["Works", "About", "Approach", "Contact"] as const;
+const links = [
+  { label: "Works", href: "/#works" },
+  { label: "Services", href: "/services" },
+  { label: "About", href: "/#about" },
+  { label: "Contact", href: "/#contact" },
+] as const;
 
 export default function Navbar() {
   return (
@@ -11,15 +16,16 @@ export default function Navbar() {
           <span className="ml-1 align-top text-[11px] font-normal tracking-[0.2em] text-muted">®</span>
         </Link>
         <div className="flex gap-6 md:gap-10">
-          {links.map((link) => (
-            <a
-              key={link}
-              href={`#${link.toLowerCase()}`}
-              className="text-[13px] tracking-[0.05em] text-muted transition-colors hover:text-offwhite"
-            >
-              {link}
-            </a>
-          ))}
+         {links.map((link) => (
+  <Link
+    key={link.label}
+    href={link.href}
+    className="text-[13px] tracking-[0.05em] text-muted transition-colors hover:text-offwhite"
+  >
+    {link.label}
+  </Link>
+))}
+
         </div>
       </nav>
     </header>

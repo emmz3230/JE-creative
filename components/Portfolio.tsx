@@ -1,21 +1,18 @@
-type Project = { tag: string; name: string };
+import Link from "next/link";
+import { projects } from "@/libs/projects";
 
-const projects: Project[] = [
-  { tag: "UI/UX Design", name: "Meridian Fintech Platform" },
-  { tag: "Web Development", name: "Atlas Commerce Rebrand" },
-];
 
 export default function Portfolio() {
   return (
     <section id="works">
       <div className="mx-auto max-w-6xl px-8">
         <div className="border-b border-line py-7 text-xs uppercase tracking-[0.25em] text-muted">
-          Selected Works — 01 / 02
+          Selected Works — 01 / 0{projects.length}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2">
           {projects.map((project, i) => (
             <article
-              key={project.name}
+              key={project.slug}
               className={`group border-b border-line px-6 pb-16 pt-12 md:px-10 ${
                 i === 0 ? "md:border-r md:border-line" : ""
               }`}
@@ -28,12 +25,18 @@ export default function Portfolio() {
               <span className="mb-5 inline-block border border-line px-3.5 py-1.5 text-[11px] uppercase tracking-[0.15em] text-muted">
                 {project.tag}
               </span>
-              <h3 className="mb-6 font-head text-2xl font-bold tracking-tight md:text-[28px]">
+              <h3 className="mb-3 font-head text-2xl font-bold tracking-tight md:text-[28px]">
                 {project.name}
               </h3>
-              <a href="#" className="inline-flex items-center gap-2 font-head text-sm font-medium text-accent hover:underline">
+              <p className="mb-6 max-w-sm text-sm leading-relaxed text-muted">
+                {project.summary}
+              </p>
+              <Link
+                href={`/work/${project.slug}`}
+                className="inline-flex items-center gap-2 font-head text-sm font-medium text-accent hover:underline"
+              >
                 View Case Study <span aria-hidden>→</span>
-              </a>
+              </Link>
             </article>
           ))}
         </div>
