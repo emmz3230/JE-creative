@@ -18,7 +18,7 @@ export default function Portfolio() {
                 i === 0 ? "md:border-r md:border-line" : ""
               }`}
             >
-              <div className="relative mb-8 aspect-[4/3] overflow-hidden border border-line width  ">
+              <div className="relative mb-8 aspect-[4/3] overflow-hidden border border-line transition-transform duration-500 group-hover:scale-[1.02]  ">
                   <Image
                   src={project.image}
                   alt={project.name}

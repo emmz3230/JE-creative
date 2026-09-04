@@ -119,12 +119,12 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "roof-extension",
-    name: "Roof Extension Rebrand",
+    slug: "AI-Powered Travel Planner (WanderSmart)",
+    name: "AI-Powered Travel Planner (WanderSmart)",
     tag: "Web Development",
-    image: "/roorextension.PNG",
+    image: "/wandermart'.PNG",
     year: "2024",
-    client: "Roof Extension Inc.",
+    client: "AI-Powered Travel Planner (WanderSmart).",
     summary:
       "Full rebrand and headless commerce buildout for an enterprise retailer.",
     liveUrl: "https://www.figma.com/design/wksyuo9luRPXINHedNdZUm/wander-smart?node-id=0-1&t=bJajN9K9vMwb59mC-1",
