@@ -50,11 +50,13 @@ export const projects: Project[] = [
 "Stamp Docs required a modern, dependable web presence to showcase their licensed notary public offerings. We positioned their brand around trust and accessibility, highlighting flexible service models across mobile, on-site, and 24/7 Remote Online Notarization (RON).",
 "The result is a streamlined booking interface that simplifies document notarization—from real estate signings to powers of attorney—delivering transparent pricing, fast scheduling, and a clear step-by-step walkthrough for clients."
 ],
-services: ["Brand Strategy & Positioning", "Web Design & UI/UX", "Frontend Development", "Booking System Integration", "SEO & Digital Presence"]    stats: [
-      { label: "Conversion rate", value: "2.1×" },
-      { label: "Load time", value: "0.8s" },
-      { label: "Mobile bounce", value: "−27%" },
-    ],
+services: ["Brand Strategy & Positioning", "Web Design & UI/UX", "Frontend Development", "Booking System Integration", "SEO & Digital Presence"],
+    stats: [
+{ label: "Documents notarized", value: "1,500+" },
+{ label: "Client rating", value: "4.9/5" },
+{ label: "Mobile arrival", value: "< 45m" },
+{ label: "Availability", value: "24/7" },
+]
   },
   {
     slug: "stra producer",
