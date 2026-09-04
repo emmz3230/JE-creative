@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { projects } from "@/libs/projects";
+import Image from "next/image";
 
 
 export default function Portfolio() {
@@ -17,11 +18,14 @@ export default function Portfolio() {
                 i === 0 ? "md:border-r md:border-line" : ""
               }`}
             >
-              <div className="mb-8 flex aspect-[4/3] items-center justify-center border border-line bg-gradient-to-br from-[#1a1a1a] to-[#161616] transition-colors group-hover:border-[#3a3a3a]">
-                <span className="font-head text-[13px] tracking-[0.2em] text-neutral-600">
-                  16:9 — PROJECT IMAGE
-                </span>
-              </div>
+              <div className="relative mb-8 aspect-[4/3] overflow-hidden border border-line width  ">
+                  <Image
+                  src={project.image}
+                  alt={project.name}
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+                />
+                </div>  
               <span className="mb-5 inline-block border border-line px-3.5 py-1.5 text-[11px] uppercase tracking-[0.15em] text-muted">
                 {project.tag}
               </span>
