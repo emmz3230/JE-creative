@@ -59,25 +59,26 @@ services: ["Brand Strategy & Positioning", "Web Design & UI/UX", "Frontend Devel
 ]
   },
   {
-    slug: "stra producer",
-    name: "Stra Producer",
+    slug: "skai-producer",
+    name: "Skai Producer",
     tag: "Web Development",
     image: "/stra.PNG",
     year: "2024",
-    client: "Stra Producer",
+    client: "Skai Producer",
     summary:
-      "Full rebrand and headless commerce buildout for an enterprise retailer.",
-    liveUrl: "https://straproducer.netlify.app/",
+"Sleek storefront and instant audio licensing platform for Skai's beat catalogue.",
+ liveUrl: "https://straproducer.netlify.app/",
     overview: [
-      "Atlas needed more than a new logo — their storefront was slow,, and leaking conversions on mobile. We rebuilt their brand identity and translated it into a lightning-fast headless storefront.",
-      "The result is a design-led commerce experience with sub-second page loads, a fully modular CMS, and a conversion rate that doubled within the first quarter of launch.",
- ],
-    services: ["Brand Identity", "Web Design", "Next.js Development", "Headless CMS", "Performance Optimization"],
+"Skai needed a direct to fan platform that matched the minimalist aesthetic of his production without the friction of traditional beat stores. We designed and built a custom beat marketplace featuring instant 30-second audio demos and automated licensing workflows.",
+"The result is a stripped-back audio store with three-second asset delivery, automated license PDF generation, and an effortless checkout experience built for modern music creators."
+],
+services: ["Brand Identity", "UI/UX Design", "Custom Web Development", "Audio Player Integration", "E-Commerce & Licensing Workflows"],    
     stats: [
-      { label: "Conversion rate", value: "2.1×" },
-      { label: "Load time", value: "0.8s" },
-      { label: "Mobile bounce", value: "−27%" },
-    ],
+{ label: "Asset delivery time", value: "00:03s" },
+{ label: "Audio demo length", value: "0:30s" },
+{ label: "Active genres", value: "05" },
+{ label: "Beats in catalogue", value: "008" },
+]
   },
   {
     slug: "bobdunabar producer",
