@@ -31,12 +31,28 @@ export default function Portfolio() {
               <p className="mb-6 max-w-sm text-sm leading-relaxed text-muted">
                 {project.summary}
               </p>
-              <Link
-                href={`/work/${project.slug}`}
-                className="inline-flex items-center gap-2 font-head text-sm font-medium text-accent hover:underline"
-              >
-                View Case Study <span aria-hidden>→</span>
-              </Link>
+                            {/* Links row */}
+              <div className="flex items-center gap-6">
+                <Link
+                  href={`/work/${project.slug}`}
+                  className="inline-flex items-center gap-2 font-head text-sm font-medium text-accent hover:underline"
+                >
+                  View Case Study <span aria-hidden>→</span>
+                </Link>
+
+                {project.liveUrl && (
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-[13px] text-muted transition-colors hover:text-offwhite"
+                  >
+                    Live Site <span aria-hidden>↗</span>
+                  </a>
+                )}
+              </div>
+
+              
             </article>
           ))}
         </div>

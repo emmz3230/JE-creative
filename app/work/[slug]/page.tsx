@@ -40,6 +40,18 @@ export default function CaseStudyPage({ params }: Params) {
             {project.name}
           </h1>
 
+          {project.liveUrl && (
+            <a
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-8 inline-block border border-accent px-6 py-3 font-head text-sm font-medium text-accent transition-colors hover:bg-accent hover:text-white"
+            >
+              Visit Live Site ↗
+            </a>
+          )}
+
+
           {/* Meta row */}
           <div className="mt-14 grid grid-cols-2 gap-8 border-t border-line pt-8 md:grid-cols-4">
             {[
