@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { projects, getProject }from "@/libs/projects";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 type Params = { params: { slug: string } };
 
@@ -71,11 +72,16 @@ export default function CaseStudyPage({ params }: Params) {
 
       {/* Hero image placeholder */}
       <section className="mx-auto max-w-6xl px-8 py-16">
-        <div className="flex aspect-[16/9] items-center justify-center border border-line bg-gradient-to-br from-[#1a1a1a] to-[#161616]">
-          <span className="font-head text-[13px] tracking-[0.2em] text-neutral-600">
-            16:9 — HERO IMAGE
-          </span>
-        </div>
+        <div className="relative aspect-[16/9] overflow-hidden border border-line">
+  <Image
+    src={project.image}
+    alt={project.name}
+    fill
+    className="object-cover"
+    priority
+  />
+</div>
+
       </section>
 
       {/* Overview + stats */}

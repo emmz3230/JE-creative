@@ -14,42 +14,43 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "hardydron-fintech",
-    name: "Hardydron Fintech Platform",
-    tag: "UI/UX Design",
+    slug: "hardy-drone-media",
+    name: "HardyDrone Media",
+    tag: "Web Development",
     image: "/hardydron.PNG",
     year: "2024",
-    client: "Hardydrone Inc.",
+    client: "Hardydrone Media",
     summary:
-    "A complete product redesign for a fintech platform serving 50,000+ users.",
+    "Cinematic aerial photography and video services by an FAA Part 107 certified studio for real estate, construction, events, and brands.",
     overview: [
-      "Hardydrone came to us with a powerful but visually overwhelming dashboard that users struggled to navigate. Task completion rates were falling and support tickets were climbing.",
-      "Over 12 weeks, we rebuilt the information architecture from the ground up, designed a new modular component system, delivered a high-fidelity prototype that their engineering team shipped without a single design deviation.",
-    ],
+      "Hardy Drone Media needed a compelling digital presence to showcase their high-end, end-to-end aerial photography and video services to prospective commercial clients.",
+      "We structured their platform to highlight their FAA Part 107 certification and 4K/6K drone capabilities",
+      "presenting a streamlined three-step workflow from flight planning to color-graded delivery across real estate",
+      "construction, and media projects."],
     liveUrl: "https://hardydrone.vercel.app/",
-    services: ["User Research", "Information Architecture", "UI/UX Design", "Design System", "Prototyping"],
+    services: ["Front-End Engineering", "Responsive Web Design", "UI/UX Design", "Content Strategy", "Performance Optimization"],
     stats: [
-      { label: "Task completion", value:"42%" },
-      { label: "Support tickets", value: "−31%" },
-      { label: "Time to ship", value: "12 weeks" },
-    ],
+    { label: "Missions Flown", value: "500+" },
+    { label: "Capture Resolution", value: "6K" },
+    { label: "Turnaround Time", value: "48h" },
+    { label: "Licensed & Insured", value: "100%" }
+]
   },
   {
     slug: "stampdocs",
-    name: "Stampdocs",
+    name: "Stamp Docs Notary Services",
     tag: "Web Development",
     image: "/stampydocs.PNG",
     year: "2024",
-    client: "Stampdocs",
+    client: "Stamp Docs Notary Services",
     summary:
-      "Full rebrand and headless commerce buildout for an enterprise retailer.",
-    liveUrl: "https://stampdocs.vercel.app/",
-    overview: [
-      "Atlas needed more than a new logo — their storefront was slow,, and leaking conversions on mobile. We rebuilt their brand identity and translated it into a lightning-fast headless storefront.",
-      "The result is a design-led commerce experience with sub-second page loads, a fully modular CMS, and a conversion rate that doubled within the first quarter of launch.",
- ],
-    services: ["Brand Identity", "Web Design", "Next.js Development", "Headless CMS", "Performance Optimization"],
-    stats: [
+  "Mobile and online notary service platform offering remote, same-day, and on-site document notarization.",
+ liveUrl: "https://stampdocs.vercel.app/",
+  overview: [
+"Stamp Docs required a modern, dependable web presence to showcase their licensed notary public offerings. We positioned their brand around trust and accessibility, highlighting flexible service models across mobile, on-site, and 24/7 Remote Online Notarization (RON).",
+"The result is a streamlined booking interface that simplifies document notarization—from real estate signings to powers of attorney—delivering transparent pricing, fast scheduling, and a clear step-by-step walkthrough for clients."
+],
+services: ["Brand Strategy & Positioning", "Web Design & UI/UX", "Frontend Development", "Booking System Integration", "SEO & Digital Presence"]    stats: [
       { label: "Conversion rate", value: "2.1×" },
       { label: "Load time", value: "0.8s" },
       { label: "Mobile bounce", value: "−27%" },
