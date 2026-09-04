@@ -81,25 +81,26 @@ services: ["Brand Identity", "UI/UX Design", "Custom Web Development", "Audio Pl
 ]
   },
   {
-    slug: "bobdunabar producer",
+    slug: "bobdunabar-producer",
     name: "Bob Dunbar Producer",
     tag: "Web Development",
     image: "/boblunar.PNG",
     year: "2024",
     client: "Bob Dunbar Producer",
     summary:
-      "Full rebrand and headless commerce buildout for an enterprise retailer.",
+      "Portfolio website for heavy metal songwriter, producer, and engineer Bob Dunbar.",
     liveUrl: "https://bobdunbar.vercel.app/",
-    overview: [
-      "Atlas needed more than a new logo — their storefront was slow,, and leaking conversions on mobile. We rebuilt their brand identity and translated it into a lightning-fast headless storefront.",
-      "The result is a design-led commerce experience with sub-second page loads, a fully modular CMS, and a conversion rate that doubled within the first quarter of launch.",
- ],
-    services: ["Brand Identity", "Web Design", "Next.js Development", "Headless CMS", "Performance Optimization"],
-    stats: [
-      { label: "Conversion rate", value: "2.1×" },
-      { label: "Load time", value: "0.8s" },
-      { label: "Mobile bounce", value: "−27%" },
-    ],
+    "overview": [
+"Heavy metal veteran Bob Dunbar needed a web presence that reflected four decades in the studio rather than the local bar circuit. We designed and built a sleek portfolio site highlighting his discography, Hall of Fame credit, and audio engineering background.",
+"The result is a dark, high-impact digital showcase featuring an interactive release player, custom lead intake forms for client inquiries, and a distinct brand identity built for enterprise music clients."
+],
+  services: ["Brand Identity", "UI/UX Web Design", "Web Development", "Discography Showcase", "Lead Generation Setup"],   
+   stats: [
+{ label: "Studio albums", value: "4" },
+{ label: "Hall of Fame records", value: "1" },
+{ label: "Legendary studios", value: "4" },
+{ label: "Label & publishing", value: "2" },
+]
   },
   {
     slug: "roof-extension",
