@@ -35,6 +35,11 @@ export const metadata: Metadata = {
   authors: [{ name: "The JE Creative" }],
   creator: "The JE Creative",
   publisher: "The JE Creative",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
