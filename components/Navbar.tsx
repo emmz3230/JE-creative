@@ -12,7 +12,7 @@ export default function Navbar() {
     <header className="border-b border-line">
       <nav className="mx-auto flex h-20 max-w-6xl items-center justify-between px-8">
         <Link href="#" className="font-head text-[15px] font-bold tracking-[0.12em]">
-          THE <span className="text-accent">JE</span> CREATIVE{" "}
+          <span className="text-accent">JE</span> CREATIVE{" "}
           <span className="ml-1 align-top text-[11px] font-normal tracking-[0.2em] text-muted">®</span>
         </Link>
         <div className="flex gap-6 md:gap-10">

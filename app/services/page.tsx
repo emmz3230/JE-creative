@@ -37,7 +37,22 @@ const services = [
       "Component libraries and documentation that keep your product consistent as your team and feature set grow.",
     items: ["Component Libraries", "Tokens & Theming", "Documentation", "Figma → Code Handoff"],
   },
+  {
+    num: "05",
+    title: "3D for the Web",
+    description:
+      "Interactive 3D experiences that run directly in the browser — product visualizations, animated scenes, and immersive landing pages that make visitors stop scrolling.",
+    items: ["Three.js / React Three Fiber", "Product Configurators", "3D Landing Pages", "WebGL Animation"],
+  },
+  {
+    num: "06",
+    title: "Technical Writing",
+    description:
+      "Clear, precise documentation that turns complex systems into content users actually read — from API docs to developer guides and product tutorials.",
+    items: ["API Documentation", "User Guides", "Developer Tutorials", "Release Notes"],
+  },
 ];
+
 
 const process = [
   { num: "01", title: "Discovery & Strategy", desc: "We define goals, users, and direction before any pixels." },
@@ -93,6 +108,7 @@ export default function ServicesPage() {
           ))}
         </div>
       </section>
+
 
       {/* Process strip */}
       <section className="mx-auto max-w-6xl px-8 py-24">
