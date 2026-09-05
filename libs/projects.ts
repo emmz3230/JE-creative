@@ -130,25 +130,24 @@ services: ["3D Web Configurator", "Interactive UI/UX Design", "Real-Time Pricing
 ],
   },
   {
-    slug: "AI-Powered Travel Planner (WanderSmart)",
+    slug: "AI-Powered-Travel-Planner-(WanderSmart)",
     name: "AI-Powered Travel Planner (WanderSmart)",
     tag: "Web Development",
     image: "/wandermart'.PNG",
     year: "2024",
     client: "AI-Powered Travel Planner (WanderSmart).",
     summary:
-      "Full rebrand and headless commerce buildout for an enterprise retailer.",
+      "The AI-Powered Travel Planner is a mobile application designed to help users plan personalized trips efficiently. The app uses artificial intelligence to generate travel itineraries based on user inputs such as destination, budget, travel dates, and interests.",
     liveUrl: "https://www.figma.com/design/wksyuo9luRPXINHedNdZUm/wander-smart?node-id=0-1&t=bJajN9K9vMwb59mC-1",
     overview: [
-      "Atlas needed more than a new logo — their storefront was slow,, and leaking conversions on mobile. We rebuilt their brand identity and translated it into a lightning-fast headless storefront.",
-      "The result is a design-led commerce experience with sub-second page loads, a fully modular CMS, and a conversion rate that doubled within the first quarter of launch.",
- ],
-    services: ["Brand Identity", "Web Design", "Next.js Development", "Headless CMS", "Performance Optimization"],
-    stats: [
-      { label: "Conversion rate", value: "2.1×" },
-      { label: "Load time", value: "0.8s" },
-      { label: "Mobile bounce", value: "−27%" },
+      "The AI-Powered Travel Planner is a mobile application designed to help users plan personalized trips efficiently. The app uses artificial intelligence to generate travel itineraries based on user inputs such as destination, budget, travel dates, and interests."
     ],
+    services: ["Product Strategy", "UX/UI Design", "Design Systems", "Prototyping & Testing"],
+    stats: [
+  { label: "Trips planned", value: "50k+" },
+  { label: "Itinerary creation", value: "2 mins" },
+  { label: "User rating", value: "4.9/5" },
+]
   },
 ];
 
