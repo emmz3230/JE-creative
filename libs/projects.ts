@@ -44,10 +44,10 @@ export const projects: Project[] = [
     year: "2024",
     client: "Stamp Docs Notary Services",
     summary:
-  "Mobile and online notary service platform offering remote, same-day, and on-site document notarization.",
+  "Mobile and online notary service platform offering remote, same day, and on-site document notarization.",
  liveUrl: "https://stampdocs.vercel.app/",
   overview: [
-"Stamp Docs required a modern, dependable web presence to showcase their licensed notary public offerings. We positioned their brand around trust and accessibility, highlighting flexible service models across mobile, on-site, and 24/7 Remote Online Notarization (RON).",
+"Stamp Docs required a modern, dependable web presence to showcase their licensed notary public offerings. We positioned their brand around trust and accessibility, highlighting flexible service models across mobile, onsite, and 24/7 Remote Online Notarization (RON).",
 "The result is a streamlined booking interface that simplifies document notarization—from real estate signings to powers of attorney—delivering transparent pricing, fast scheduling, and a clear step-by-step walkthrough for clients."
 ],
 services: ["Brand Strategy & Positioning", "Web Design & UI/UX", "Frontend Development", "Booking System Integration", "SEO & Digital Presence"],
@@ -119,7 +119,7 @@ services: ["Brand Identity", "UI/UX Design", "Custom Web Development", "Audio Pl
     "customize their roof extension and instantly visualize structural changes alongside precise pricing.",
 
 "The result is a seamless digital experience with dynamic 3D rendering",
- "flexible section breakdown, and instant quote generation—streamlining",
+ "flexible section breakdown, and instant quote generation streamlining",
   "customer decision-making and driving qualified leads.",
 ],
 services: ["3D Web Configurator", "Interactive UI/UX Design", "Real-Time Pricing Engine", "Web Application Development", "E-Commerce Integration"],
@@ -140,7 +140,7 @@ services: ["3D Web Configurator", "Interactive UI/UX Design", "Real-Time Pricing
       "The AI-Powered Travel Planner is a mobile application designed to help users plan personalized trips efficiently. The app uses artificial intelligence to generate travel itineraries based on user inputs such as destination, budget, travel dates, and interests.",
     liveUrl: "https://www.figma.com/design/wksyuo9luRPXINHedNdZUm/wander-smart?node-id=0-1&t=bJajN9K9vMwb59mC-1",
     overview: [
-      "The AI-Powered Travel Planner is a mobile application designed to help users plan personalized trips efficiently. The app uses artificial intelligence to generate travel itineraries based on user inputs such as destination, budget, travel dates, and interests."
+      "The AI Powered Travel Planner is a mobile application designed to help users plan personalized trips efficiently. The app uses artificial intelligence to generate travel itineraries based on user inputs such as destination, budget, travel dates, and interests."
     ],
     services: ["Product Strategy", "UX/UI Design", "Design Systems", "Prototyping & Testing"],
     stats: [

@@ -30,14 +30,16 @@ export default function AboutApproach() {
           <p className="text-[15px] leading-loose text-muted">
             The JE Creative is a compact, senior-level design studio built on the belief that
             small teams produce sharper work. Without layers of account management or handoffs,
-            every project gets our full, undivided attention — from the first strategy call to
+            every project gets our full, undivided attention from the first strategy call to
             the final pixel.
           </p>
           <p className="text-[15px] leading-loose text-muted">
-            We partner with startups and established brands to design digital products that feel
-            effortless and look expensive. Our process is systematic, our typography is
-            deliberate, and our results are measured — not guessed.
+          We partner with startups and established brands to design digital products that feel
+          effortless and look expensive including interactive 3D experiences and developer-facing
+          documentation. Our process is systematic, our typography is deliberate, and our results
+          are measured not guessed.
           </p>
+
         </div>
       </div>
 
