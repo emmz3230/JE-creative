@@ -5,8 +5,8 @@ import { useState } from "react";
 type FormState = { name: string; email: string; brief: string };
 
 export default function Contact() {
-  const formspreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID  || "xpzvqabc";
-  const endpoint = `https://formspree.io/f/${formspreeId}`;
+  // const formspreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID  || "xpzvqabc";
+  const endpoint = "https://formspree.io/f/mqpklnez";
 
   const [form, setForm] = useState<FormState>({ name: "", email: "", brief: "" });
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
