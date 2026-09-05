@@ -15,8 +15,18 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: Params): Metadata {
   const project = getProject(params.slug);
   return {
-    title: project ? `${project.name} — The JE Creative` : "Case Study",
+    title: project ? `${project.name} Case Study` : "Case Study",
     description: project?.summary,
+    alternates: { canonical: `/work/${params.slug}` },
+    openGraph: project
+      ? {
+          type: "article",
+          title: `${project.name} Case Study`,
+          description: project.summary,
+          url: `/work/${params.slug}`,
+          images: [{ url: project.image, alt: project.name }],
+        }
+      : undefined,
   };
 }
 

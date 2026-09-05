@@ -4,8 +4,16 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Services — The JE Creative",
-  description: "Design and development services for ambitious digital brands.",
+  title: "Digital Design and Development Services",
+  description:
+    "Explore UI/UX design, web development, brand identity, design systems, 3D web experiences, and technical writing from The JE Creative.",
+  alternates: { canonical: "/services" },
+  openGraph: {
+    title: "Digital Design and Development Services",
+    description:
+      "Senior-led design and development services for ambitious digital brands.",
+    url: "/services",
+  },
 };
 
 const services = [
@@ -73,7 +81,7 @@ export default function ServicesPage() {
             What we do, done precisely<span className="text-muted">.</span>
           </h1>
           <p className="mt-8 max-w-md text-base leading-relaxed text-muted">
-            Four disciplines, one team, zero handoff friction. Every engagement is senior-led from start to finish.
+            Six disciplines, one team, zero handoff friction. Every engagement is senior-led from start to finish.
           </p>
         </div>
       </section>
